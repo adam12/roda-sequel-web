@@ -1,6 +1,6 @@
 # Roda Sequel Web Prototype
 
-A pre-built Ruby web development stack which encourages quick interating and performance.
+A pre-built Ruby web development stack which encourages quick iterating and performance.
 
 ## Features
 
@@ -15,7 +15,7 @@ A pre-built Ruby web development stack which encourages quick interating and per
 
 Install using [Zzap ACME® Duplicating Raygun](https://github.com/adam12/zzap):
 
-	zzap my_awesome_project adam12/roda-sequel-web
+	$ zzap my_awesome_project adam12/roda-sequel-web
 
 ## License
 
