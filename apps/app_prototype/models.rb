@@ -11,5 +11,5 @@ module AppPrototype
   Model.plugin :auto_validations
   Model.plugin :validation_helpers
 
-  require_glob(__dir__ + "/models/**/*.rb")
+  require_all(__dir__ + "/models/**/*.rb")
 end

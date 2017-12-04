@@ -13,14 +13,6 @@ module AppPrototype
     require_relative "helpers"
     require_relative "app"
   end
-
-  def require_folder(folder)
-    require_glob(__dir__ + "/#{folder}/**/*.rb")
-  end
-
-  def require_glob(glob)
-    Dir[glob].each { |f| require f }
-  end
 end
 
 AppPrototype.boot
