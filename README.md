@@ -6,9 +6,8 @@ A pre-built Ruby web development stack which encourages quick iterating and perf
 
 * Auto-reloading
 * Database configuration
-* Form Helper
 * Safe ERB Rendering
-* Pre-make rake tasks
+* Pre-made rake tasks
 * Number helpers
 
 ## Getting Started
