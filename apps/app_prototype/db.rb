@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 require "sequel"
 require "logger"
-require_relative "../../env"
+require "env"
 
 module AppPrototype
   DB = Sequel.connect(ENV.fetch("DATABASE_URL"))

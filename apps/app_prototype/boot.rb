@@ -1,7 +1,4 @@
-# frozen_string_literal: true
-lib = File.expand_path("../../../lib", __FILE__)
-$LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-
+# frozen-string-literal: true
 module AppPrototype
   module_function
 
@@ -14,6 +11,7 @@ module AppPrototype
     # Local requires
     require_relative "models"
     require_relative "helpers"
+    require_relative "app"
   end
 
   def require_folder(folder)
@@ -26,5 +24,3 @@ module AppPrototype
 end
 
 AppPrototype.boot
-
-include AppPrototype if defined?(Pry.main)
