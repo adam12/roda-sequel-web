@@ -1,12 +1,14 @@
 # frozen_string_literal: true
-require_relative "db"
+require "db"
 
 module AppPrototype
   Model = Class.new(Sequel::Model) do
 
   end
 
-  Model.db = DB
+  Model.def_Model(self)
+  Model.db = ::DB
+  Model.default_association_options[:class_namespace] = self.name
 
   Model.plugin :auto_validations
   Model.plugin :validation_helpers

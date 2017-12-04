@@ -1,5 +1,10 @@
 # frozen_string_literal: true
-require_relative "boot"
+require "roda"
+require "friendly_numbers"
+require "blankman"
+
+require_relative "models"
+require_relative "helpers"
 
 module AppPrototype
   class App < Roda
