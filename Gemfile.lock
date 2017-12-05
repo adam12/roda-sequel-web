@@ -2,7 +2,7 @@ GEM
   remote: https://rubygems.org/
   specs:
     auto_reloader (0.4.1)
-    batteries (0.3.0)
+    batteries (0.4.0)
     blankman (1.0.0)
     coderay (1.1.1)
     dotenv (2.2.1)
